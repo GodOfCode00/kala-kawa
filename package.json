@@ -1,0 +1,29 @@
+{
+  "name": "kala-kawa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.{ts,js,jsx,json}\"",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "next": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0", 
+    "@types/react": "latest",
+    "@types/node": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.7"
+  }
+}
