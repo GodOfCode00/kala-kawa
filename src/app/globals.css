@@ -229,21 +229,21 @@
   left: 78px;
   width: calc(100% - 78px);
 }
-.main-section .main-content {
+.main-section .topbar-content {
   height: 60px;
   display: flex;
   align-items: center;
 }
-.main-section .main-content .bx-menu,
-.main-section .main-content .text {
+.main-section .topbar-content .bx-menu,
+.main-section .topbar-content .text {
   color: #11101d;
   font-size: 35px;
 }
-.main-section .main-content .bx-menu {
+.main-section .topbar-content .bx-menu {
   margin: 0 15px;
   cursor: pointer;
 }
-.main-section .main-content .text {
+.main-section .topbar-content .text {
   font-size: 26px;
   font-weight: 600;
 }

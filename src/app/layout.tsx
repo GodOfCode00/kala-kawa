@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 import SideBar from "./_components/(containers)/SideBar";
 import MainContainer from "./_components/(containers)/MainContainer";
+import { Providers } from "@/redux/Provider";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -34,9 +35,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
-        <SideBar></SideBar>
-        <MainContainer>{children}</MainContainer>
-
+        <Providers>
+          <SideBar></SideBar>
+          <MainContainer>{children}</MainContainer>
+        </Providers>
         {/* <div className="one"></div> */}
       </body>
     </html>
