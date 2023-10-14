@@ -27,7 +27,7 @@ function SideBar() {
   return (
     <div className="sidebar close">
       <div className="logo-details">
-        <i className="bx bxl-c-plus-plus"></i>
+        <i className="crow-icon"></i>
         <span className="logo_name">Kawa</span>
       </div>
       <ul className="nav-links">
