@@ -15,6 +15,7 @@ function MainContainer({ children }: { children: React.ReactNode }) {
           <span className="text">Drop Down Sidebar</span>
         </div>
         <div className="right">
+          <i className="bx bxs-user-circle"></i>
           <i
             className={isDark ? "bx bxs-moon" : "bx bxs-sun"}
             onClick={() => dispatch(toggleTheme())}
